@@ -1,44 +1,5 @@
-https://github.com/hexlet-codebattle/codebattle/issues/1320#issuecomment-1807199796
-- summary: |
-    Невозможно изменить аватар пользователя в настройках профиля
-  environment: |
-    Яндекс браузер (Официальная сборка) (64 бит)
-    Windows 10
-  steps-to-reproduce: |
-    1. Авторизация пользователя с помощью "email" и "password"
-    2. На главной странице нажимаем на имя пользователя
-    3. В появившемся меню нажимаем "Settings"
-  expected-result: |
-    На главной странице отображается новый аватар для текущего пользователя
-  actual-result: |
-    В настройках пользователя нет возможности изменить "Аватар пользователя"
-
-  https://github.com/hexlet-codebattle/codebattle/issues/1391#issuecomment-1807200600
-- summary: |
-    Есть возможность создать аккаунт с несуществующим адресом почты
-  environment: |
-    Яндекс браузер (Официальная сборка) (64 бит)
-    Windows 10
-  steps-to-reproduce: |
-    1. Авторизация пользователя с помощью "email" bunny@mailtop.ru
-    2. Вводим пароь и повтор пароля
-    3. Нажимаем кнопку "submit"
-  expected-result: |
-    Система отклоняет регистрацию
-  actual-result: |
-    Регистрация проходит успешно.
-
-  https://github.com/hexlet-codebattle/codebattle/issues/1472#issuecomment-1807201478
-- summary: |
-    Невозможно удалить аккаунт 
-  environment: |
-    Яндекс браузер (Официальная сборка) (64 бит)
-    Windows 10
-  steps-to-reproduce: |
-    1. Авторизация пользователя с помощью "email" и "password"
-    2. На главной странице нажимаем на имя пользователя
-    3. В появившемся меню нажимаем "Settings"
-  expected-result: |
-    Аккаунт удален
-  actual-result: |
-    В настройках нет такой кнопки
+---
+issues:
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1320#issuecomment-1807199796"
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1391#issuecomment-1807200600"
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1472#issuecomment-1807201478"
